@@ -208,9 +208,7 @@ const numeros = Array.from({ length: 100 }, (_, index) => index + 1);
 
 84 - Crie um script que declare uma função que receba um array de números como parâmetro e retorne um novo array contendo apenas os números que são maiores que 25.
 
-85 - Crie um script que declare uma função que receba um array de strings como parâmetro e retorne um novo array
-
- onde cada string tenha as consoantes duplicadas. Utilize a função `replace()` para duplicar as consoantes.
+85 - Crie um script que declare uma função que receba um array de strings como parâmetro e retorne um novo array onde cada string tenha as consoantes duplicadas. Utilize a função `replace()` para duplicar as consoantes.
 
 86 - Crie um script que declare uma função que receba um array de strings como parâmetro e retorne um novo array contendo apenas as strings que começam com a letra "D".
 

@@ -1,0 +1,52 @@
+<!-- 1. Crie uma página que calcule a média de quatro notas inseridas pelo usuário. Exiba se o aluno foi aprovado (média >= 7) ou reprovado (média < 7). -->
+
+<!DOCTYPE html>
+<html lang="ptBR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo de média</title>
+</head>
+<body>
+    <h1>Calculo de média</h1>
+    <form id="formulario">
+        <label for="nota1">Nota 1:</label>
+        <input type="number" id="nota1" required><br/>
+
+        <label for="nota1">Nota 2:</label>
+        <input type="number" id="nota2" required><br/>
+
+        <label for="nota1">Nota 3:</label>
+        <input type="number" id="nota3" required><br/>
+
+        <label for="nota1">Nota 4:</label>
+        <input type="number" id="nota4" required><br/>
+
+        <button type="button" onclick="calcularMedia()">Calcular Média</button>
+    </form>
+
+    <h2 id="resultado"></h2>
+
+    <script>
+        function calcularMedia() {
+            const nota1 = parseFloat(document.getElementById("nota1").value);
+            const nota2 = parseFloat(document.getElementById("nota2").value);
+            const nota3 = parseFloat(document.getElementById("nota3").value);
+            const nota4 = parseFloat(document.getElementById("nota4").value);
+
+            if (isNaN(nota1) || isNaN(nota2) || isNaN(nota3) || isNaN(nota4)) {
+                document.getElementById("resultado").innerText = "Por favor, insira todas as notas.";
+                return;
+            }
+
+            const media = (nota1 + nota2 + nota3 + nota4) / 4;
+
+            if (media >= 7) {
+                document.getElementById("resultado").innerText = `Aprovado! Média: ${media.toFixed(2)}`;
+            } else {
+                document.getElementById("resultado").innerText = `Reprovado! Média: ${media.toFixed(2)}`;
+            }
+        }
+    </script>
+</body>
+</html>
