@@ -1,0 +1,39 @@
+<!-- 6. Crie uma página que receba uma lista de nomes e exiba o nome mais longo e o mais curto. -->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Nomes</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Lista de Nomes</h1>
+    </header>
+
+    <section>
+        <div>
+            <p class="texto">Digite três nomes: <br><br><input type="text" name="txtname1" id="txtname1" placeholder="Nome 1" class="intxt"></p>
+
+            <input type="text" name="txtname2" id="txtname2" placeholder="Nome 2" class="intxt"> <br><br>
+
+            <input type="text" name="txtname3" id="txtname3" placeholder="Nome 3" class="intxt">
+
+            <p><input id="btn" type="button" value="Verificar" onclick="verificarTamanhoNome()"></p>
+        </div>
+
+        <div id="resultado">
+            Preparando a comparação... <br><br>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; Todos os direitos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

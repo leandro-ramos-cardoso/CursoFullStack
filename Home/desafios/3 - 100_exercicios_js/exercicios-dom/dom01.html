@@ -34,6 +34,7 @@
             const nota3 = parseFloat(document.getElementById("nota3").value);
             const nota4 = parseFloat(document.getElementById("nota4").value);
 
+            <!-- Função isNaN verifica se o valor fornecido não é um número. -->
             if (isNaN(nota1) || isNaN(nota2) || isNaN(nota3) || isNaN(nota4)) {
                 document.getElementById("resultado").innerText = "Por favor, insira todas as notas.";
                 return;

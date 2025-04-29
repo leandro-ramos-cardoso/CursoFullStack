@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+</head>
+<body>
+    <h1>Operação de soma</h1>
+    <form>
+        <label for="numero1">Numero 1:</label>
+        <input type="number" id="numero1"> <br> <br>
+
+        <label for="numero2">Numero 2:</label>
+        <input type="number" id="numero2"> <br> <br>
+
+        <button onclick="soma()">Somar</button> <br><br>
+
+        <p id="resultado"></p>
+        <p id="resultado2"></p>
+
+        <h2 id="resultadoFinal"></h2>
+    </form>
+
+    <script>
+
+        function soma(){
+            event.preventDefault();
+
+            const numero = parseInt(document.getElementById("numero1").value);
+
+            const numero2 = parseInt(document.getElementById("numero2").value);
+
+            document.getElementById("resultado").innerText = `O valor digitado para N1 foi ${numero}.`;
+
+            document.getElementById("resultado2").innerText = `O valor digitado para N2 foi ${numero2}.`;
+
+            let soma = 0;
+            soma = numero + numero2;
+
+            document.getElementById("resultadoFinal").innerText = `A soma entre ${numero} e ${numero2} vale ${soma}.`
+        }
+    </script>
+</body>
+</html>

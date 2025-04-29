@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Número Primo</title>
+</head>
+<body>
+    <h1>Teste de número primo</h1>
+
+    <form id="formulario">
+        <label for="numero">Número: </label>
+        <input type="text" id="numero" placeholder="Insira um número" required>
+
+        <button type="button" onclick="verificaNumeroPrimo()">Verificar</button>
+    </form>
+
+    <h2 id="resultado"></h2>
+
+    <script>
+        function verificaNumeroPrimo() {
+            // Obtém o valor do input e converte para número
+            const numero = parseInt(document.getElementById("numero").value);
+
+            // Verifica se o valor é um número válido
+            if (isNaN(numero)) {
+                document.getElementById("resultado").innerText = "Por favor, insira um número válido.";
+                return;
+            }
+
+            // Verifica se o número é primo
+            if (numero < 2) {
+                document.getElementById("resultado").innerText = `${numero} não é um número primo.`;
+                return;
+            }
+
+            for (let i = 2; i <= Math.sqrt(numero); i++) {
+                if (numero % i === 0) {
+                    document.getElementById("resultado").innerText = `${numero} não é um número primo.`;
+                    return;
+                }
+            }
+
+            document.getElementById("resultado").innerText = `${numero} é um número primo.`;
+        }
+    </script>
+</body>
+</html>
