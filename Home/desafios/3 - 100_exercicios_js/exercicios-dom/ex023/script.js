@@ -1,8 +1,5 @@
 function fazerLogin(){
 
-    // var nome = 'leandro'
-    // var senha = '123'
-
     var nome = window.document.getElementById('txtuser').value;
     var senha = window.document.getElementById('txtpass').value;
 
@@ -13,6 +10,4 @@ function fazerLogin(){
     } else {
         alert('ERRO')
     }
-
-
 }
