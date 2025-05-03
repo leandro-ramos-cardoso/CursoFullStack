@@ -1,5 +1,8 @@
-var n = 5;
+var n = 10;
 
-for (c = n; c > 0; c--){
-    console.log(c);   
+function calcular(){
+    let resto = 10 / 2;
+    return resto;
 }
+
+console.log(calcular());

@@ -1,0 +1,42 @@
+<!-- Crie uma página que simule um sistema de votação. O usuário pode votar em diferentes opções e o resultado é exibido ao final. -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de votação</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Sistema de votação</h1>
+    </header>
+
+    <section>
+        <div>
+            <p style="text-transform: uppercase; font-weight: bold; font-size: 20pt;">URNA ELETRÔNICA</p> <br>
+
+            <p>Candidato 1 <input type="checkbox" name="txtcand1" id="txtcand1" value="Candidato 1"></p>
+            <p>Candidato 2 <input type="checkbox" name="txtcand2" id="txtcand2" value="Candidato 2"></p>
+            <p>Candidato 3 <input type="checkbox" name="txtcand3" id="txtcand3" value="Candidato 3"></p>
+            <p>Candidato 4 <input type="checkbox" name="txtcand4" id="txtcand4" value="Candidato 4"></p>
+            <p>Candidato 5 <input type="checkbox" name="txtcand5" id="txtcand5" value="Candidato 5"></p>
+            <p>Candidato 6 <input type="checkbox" name="txtcand6" id="txtcand6" value="Candidato 6"></p>
+
+            <p><input id="btn" type="button" value="Votar" onclick="votacao()"></p>
+            
+        </div>
+
+        <div id="resultado">
+            
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; Todos os direitos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

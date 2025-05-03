@@ -1,0 +1,45 @@
+<!-- Crie uma página que receba uma lista de números e exiba apenas os números primos. -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Números Primos</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Números Primos</h1>
+    </header>
+
+    <section>
+        <div>
+            
+            <p class="title-text">Primeiro Número:</p><br> <input type="number" name="txtnum1" id="txtnum1" class="intxt"></p> <br>
+
+            <p class="title-text">Segundo Número:</p><br> <input type="number" name="txtnum2" id="txtnum2" class="intxt"></p> <br>
+
+            <p class="title-text">Terceiro Número:</p><br> <input type="number" name="txtnum3" id="txtnum3" class="intxt"></p> <br>
+
+            <p class="title-text">Quarto Número:</p><br> <input type="number" name="txtnum4" id="txtnum4" class="intxt"></p> <br>
+
+            <p class="title-text">Quinto Número:</p><br> <input type="number" name="txtnum5" id="txtnum5" class="intxt"></p> <br>
+            
+            <p><input id="btn" type="button" value="Contar" onclick="verificaPrimo()"></p>
+
+            
+        </div>
+
+        <div id="resultado">
+            Verificando números primos...
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; Todos os direitos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

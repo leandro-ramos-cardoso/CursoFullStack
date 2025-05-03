@@ -1,0 +1,37 @@
+<!-- Crie uma página que calcule a sequência de Fibonacci até um número N inserido pelo usuário. -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sequência de Fibonacci</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Sequência de Fibonacci</h1>
+    </header>
+
+    <section>
+        <div>
+            <p style="font-weight: bold; font-size: 20pt;">Fibonacci</p> <br>
+
+            <p>Digite um número: <input type="text" name="txtnumero" id="txtnumero"></p>
+
+            <p><input id="btn" type="button" value="Calcular" onclick="calcularFibonacci()"></p>
+            
+        </div>
+
+        <div id="resultado">
+            
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; Todos os direitos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

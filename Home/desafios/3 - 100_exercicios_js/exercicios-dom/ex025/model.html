@@ -1,27 +1,27 @@
-<!-- Crie uma página que converta um valor de decimal para binário. -->
+<!-- Crie uma página que gere uma senha aleatória com base em um comprimento inserido pelo usuário. -->
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cálculo de Fatorial</title>
+    <title>Gerador de senha</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Cálculo de Fatorial</h1>
+        <h1>Gerador de senha</h1>
     </header>
 
     <section>
         <div>
-            <p class="texto">Digite um número: <br><br><input type="number" name="txtnum" id="txtnum" placeholder="Número maior que zero" class="intxt"></p>
+            <p class="texto">Informe a quantidade de digitos: <input type="number" name="txts" id="txts" class="intxt"></p>
 
-            <p><input id="btn" type="button" value="Calcular" onclick="soma()"></p>
+            <p><input id="btn" type="button" value="Gerar" onclick="gerarSenha()"></p>
         </div>
 
         <div id="resultado">
-            Preparando o cálculo...
+            Gerando a senha...
         </div>
     </section>
 

@@ -1,0 +1,34 @@
+<!-- Crie uma página que receba um valor em reais e converta para dólares, euros e libras com base em taxas de câmbio fixas. -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversão de moedas</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Conversão de moedas</h1>
+    </header>
+
+    <section>
+        <div>
+            <p class="texto">Digite o valor: <input type="number" name="txtval" id="txtval" class="intxt" placeholder="Valor em R$"></p>
+
+            <p><input id="btn" type="button" value="Calcular" onclick="converteMoedas()"></p>
+        </div>
+
+        <div id="resultado">
+            Convertendo os valores...
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; Todos os direitos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

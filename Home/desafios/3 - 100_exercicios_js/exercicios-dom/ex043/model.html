@@ -1,0 +1,36 @@
+<!-- Crie uma página que calcule a velocidade média de um percurso com base no tempo e na distância inseridos pelo usuário. -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Velocidade Média</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Velocidade Média</h1>
+    </header>
+
+    <section>
+        <div>
+            <p class="texto">Informe a distância: <input type="number" name="txtd" id="txtd" class="intxt"></p>
+
+            <p class="texto">Informe o tempo: <input type="number" name="txtt" id="txtt" class="intxt"></p>
+
+            <p><input id="btn" type="button" value="Calcular" onclick="velocidadeMedia()"></p>
+        </div>
+
+        <div id="resultado">
+            Verificando os divisores...
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; Todos os direitos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

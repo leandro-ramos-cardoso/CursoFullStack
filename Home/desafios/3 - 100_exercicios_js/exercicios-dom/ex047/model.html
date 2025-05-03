@@ -1,0 +1,40 @@
+<!-- Crie uma página que receba uma lista de notas e exiba a maior, a menor e a média das notas. -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo da média</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Cálculo da média</h1>
+    </header>
+
+    <section>
+        <div>
+            <p class="texto">Primeira nota: <input type="number" name="txtp" id="txtp" class="intxt"></p>
+
+            <p class="texto">Segunda nota: <input type="number" name="txts" id="txts" class="intxt"></p>
+
+            <p class="texto">Terceira nota: <input type="number" name="txtt" id="txtt" class="intxt"></p>
+
+            <p class="texto">Quarta nota: <input type="number" name="txtq" id="txtq" class="intxt"></p>
+
+            <p><input id="btn" type="button" value="Calcular" onclick="calculaMediaNotas()"></p>
+        </div>
+
+        <div id="resultado">
+            Calculando a média...
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; Todos os direitos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

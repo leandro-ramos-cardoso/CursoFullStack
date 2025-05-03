@@ -1,0 +1,38 @@
+<!-- Crie uma página que simule um jogo de adivinhar números com múltiplas tentativas e dê dicas para o usuário. -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de advinhar</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Jogo de advinhar</h1>
+    </header>
+
+    <section>
+        <div>
+            
+            <p>Qual é o número?</p><br> <input type="text" name="txtescolha" id="txtproduto" class="intxt"></p> <br>
+
+            <p><input id="btn" type="button" value="Advinhar" onclick="tentativaNumero()"></p>
+
+            <p><input id="btn" type="button" value="Gerar número" onclick="gerarNumero()"></p>
+            
+        </div>
+
+        <div id="resultado">
+            Gerando um número aleatório...
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; Todos os direitos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

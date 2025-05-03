@@ -1,0 +1,49 @@
+<!-- Crie uma página que simule um formulário de contato com validação de campos obrigatórios -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Formulário de Contato</h1>
+    </header>
+
+    <section>
+        <div class="form">
+            <h2>Contate-nos</h2>
+
+            <p>Nosso endereço de correspondência é:
+                152A Charlotte Street,
+                Peterborough ON
+                Telefone: 705-742-3221  </p>
+        </div>
+        
+        <div>
+            <p class="title">Grande visão sem ótimas pessoas é irrelevante. Vamos trabalhar juntos.</p>
+
+            <p class="texto"> <input type="text" name="txtname" id="txtname" class="intxt" placeholder="Enter your name"></p>
+
+            <p class="texto"><input type="email" name="txtemail" id="txtemail" class="intxt" placeholder="Enter a valid email address"></p>
+
+            <p class="texto"><input type="textarea" name="txtmsg" id="txtmsg" class="intxt" placeholder="Enter your message"></p>
+
+            <p><input id="btn" type="button" value="Enviar" onclick="formulario()"></p>
+        </div>
+
+        <div id="resultado">
+            
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; Todos os direitos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

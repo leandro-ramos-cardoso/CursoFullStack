@@ -1,27 +1,28 @@
-<!-- Crie uma página que converta um valor de decimal para binário. -->
+<!-- Crie uma página que receba uma frase e conte o número de palavras. -->
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cálculo de Fatorial</title>
+    <title>Contando palavras</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Cálculo de Fatorial</h1>
+        <h1>Contando palavras</h1>
     </header>
 
     <section>
         <div>
-            <p class="texto">Digite um número: <br><br><input type="number" name="txtnum" id="txtnum" placeholder="Número maior que zero" class="intxt"></p>
-
-            <p><input id="btn" type="button" value="Calcular" onclick="soma()"></p>
+            <p class="texto">Digite um nome:</p> <br>
+            <p><input type="text" name="txtfrase" id="txtfrase" class="intxt"></p> <br>
+            
+            <p><input id="btn" type="button" value="Contar" onclick="contaPalavra()"></p>
         </div>
 
         <div id="resultado">
-            Preparando o cálculo...
+            Contando nomes...
         </div>
     </section>
 

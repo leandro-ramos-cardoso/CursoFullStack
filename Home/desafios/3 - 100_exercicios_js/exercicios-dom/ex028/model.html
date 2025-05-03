@@ -1,27 +1,27 @@
-<!-- Crie uma página que converta um valor de decimal para binário. -->
+<!-- Crie uma página que receba uma lista de temperaturas e exiba a maior, a menor e a média das temperaturas. -->
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cálculo de Fatorial</title>
+    <title>Conversor de Temperatura</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Cálculo de Fatorial</h1>
+        <h1>Conversor de Temperatura</h1>
     </header>
 
     <section>
         <div>
-            <p class="texto">Digite um número: <br><br><input type="number" name="txtnum" id="txtnum" placeholder="Número maior que zero" class="intxt"></p>
+            <p class="texto">Primeira temperatura: <input type="number" name="txtp" id="txtp" class="intxt"></p>
 
-            <p><input id="btn" type="button" value="Calcular" onclick="soma()"></p>
+            <p><input id="btn" type="button" value="Calcular" onclick="converteTemperatura()"></p>
         </div>
 
         <div id="resultado">
-            Preparando o cálculo...
+            Verificando as temperaturas...
         </div>
     </section>
 

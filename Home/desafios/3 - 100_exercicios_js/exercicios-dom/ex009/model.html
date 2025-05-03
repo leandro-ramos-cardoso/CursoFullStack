@@ -1,0 +1,38 @@
+<!-- Crie uma página que calcule o MDC (Máximo Divisor Comum) de dois números inseridos pelo usuário. -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MDC</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Cálculo MDC</h1>
+    </header>
+
+    <section>
+        <div>
+            <p class="texto"></p>Digite o primeiro número: <br>
+            <p><input type="number" name="txtn1" id="txtn1" class="intxt"></p> <br>
+
+            <p class="texto"></p>Digite o segundo número: <br>
+            <p><input type="number" name="txtn2" id="txtn2" class="intxt"></p> <br>
+            
+            <p><input id="btn" type="button" value="Calcular" onclick="calcularMDC()"></p>
+        </div>
+
+        <div id="resultado">
+            Calculando MDC...
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; Todos os direitos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

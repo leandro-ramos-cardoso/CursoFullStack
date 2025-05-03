@@ -1,0 +1,37 @@
+<!-- Crie uma página que receba uma lista de nomes e os exiba em ordem alfabética. -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de nomes</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Lista de nomes</h1>
+    </header>
+
+    <section>
+        <div>
+            <p class="texto">Digite três nomes:</p> <br>
+            <p><input type="text" name="txtnome1" id="txtnome1" class="intxt"></p> <br>
+            <p><input type="text" name="txtnome2" id="txtnome2" class="intxt"></p> <br>
+            <p><input type="text" name="txtnome3" id="txtnome3" class="intxt"></p> <br>
+
+            <p><input id="btn" type="button" value="Verificar" onclick="retornaNomes()"></p>
+        </div>
+
+        <div id="resultado">
+            Verificando nomes...
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; Todos os direitos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

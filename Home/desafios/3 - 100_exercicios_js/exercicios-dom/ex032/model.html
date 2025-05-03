@@ -1,27 +1,28 @@
-<!-- Crie uma página que converta um valor de decimal para binário. -->
+<!-- Crie uma página que exiba a série de números primos até um valor N inserido pelo usuário. -->
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cálculo de Fatorial</title>
+    <title>Números Primos</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Cálculo de Fatorial</h1>
+        <h1>Números Primos</h1>
     </header>
 
     <section>
         <div>
-            <p class="texto">Digite um número: <br><br><input type="number" name="txtnum" id="txtnum" placeholder="Número maior que zero" class="intxt"></p>
+            <p class="texto"></p>Informe um valor: <br>
+            <p><input type="number" name="txtvalor" id="txtvalor" class="intxt"></p> <br>
 
-            <p><input id="btn" type="button" value="Calcular" onclick="soma()"></p>
+            <p><input id="btn" type="button" value="Calcular" onclick="numerosPrimos()"></p>
         </div>
 
         <div id="resultado">
-            Preparando o cálculo...
+            Calculando MDC...
         </div>
     </section>
 

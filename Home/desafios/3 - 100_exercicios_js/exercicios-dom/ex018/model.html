@@ -1,0 +1,43 @@
+<!-- Crie uma página que receba uma lista de produtos e preços, calcule o total e aplique um desconto baseado em uma condição (por exemplo, desconto de 10% se o total for maior que 100). -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desconto em produtos</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Desconto em produtos</h1>
+    </header>
+
+    <section>
+        <div>
+            
+            <p>Digite um produto:</p><br> <input type="text" name="txtproduto" id="txtproduto" class="intxt"></p> <br>
+
+            <p>Valor: </p> <br> <input type="number" name="txtvalor" id="txtvalor" class="intxt"></p> <br>
+
+            <p>Digite um produto:</p><br> <input type="text" name="txtproduto2" id="txtproduto2" class="intxt"></p> <br>
+
+            <p>Valor: </p> <br> <input type="number" name="txtvalor2" id="txtvalor2" class="intxt"></p>
+            
+            <p><input id="btn" type="button" value="Contar" onclick="calcularDesconto()"></p>
+
+            
+        </div>
+
+        <div id="resultado">
+            Calculando total...
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; Todos os direitos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+body {
+    background-color: #F9FAFB;
+    font: normal 15pt Arial;
+    color: #008000;
+}
+
+header {
+    text-align: center;
+}
+
+section {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
+}
+
+footer {
+    text-align: center;
+    font-style: italic;
+}
+
+#btn {
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #10B981;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 180px;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.texto {
+    font: normal 20pt Arial;
+}
+
+.intxt {
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    font-size: 12pt;
+    border-radius: 25px;
+    border: 5px solid lightgreen;
+}

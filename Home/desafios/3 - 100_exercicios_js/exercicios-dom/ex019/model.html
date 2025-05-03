@@ -1,0 +1,35 @@
+<!-- Crie uma página que calcule o tempo necessário para um investimento dobrar de valor com base em uma taxa de juros anual inserida pelo usuário. -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taxa de juros</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Taxa de juros</h1>
+    </header>
+
+    <section>
+        <div>
+            <p class="texto"></p>Digite uma taxa de juros anual: <br> <br>
+            <p><input type="number" name="txtn1" id="txtjuros" class="intxt"></p> <br>
+            
+            <p><input id="btn" type="button" value="Calcular" onclick="calculaJuros()"></p>
+        </div>
+
+        <div id="resultado">
+            Calculando juros...
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; Todos os direitos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!-- Crie uma página que receba uma lista de preços e calcule o preço médio, o maior e o menor preço. -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de precos</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Lista de precos</h1>
+    </header>
+
+    <section>
+        <div>
+            <p class="texto">Preço 1: <input type="number" name="txtp" id="txtp" class="intxt"></p>
+
+            <p class="texto">Preço 2: <input type="number" name="txts" id="txts" class="intxt"></p>
+
+            <p class="texto">Preço 3: <input type="number" name="txtt" id="txtt" class="intxt"></p>
+
+            <p><input id="btn" type="button" value="Calcular" onclick="listarPrecos()"></p>
+        </div>
+
+        <div id="resultado">
+            Verificando as temperaturas...
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; Todos os direitos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

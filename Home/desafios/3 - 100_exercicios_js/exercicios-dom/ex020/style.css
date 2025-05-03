@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #F9FAFB;
+    font: normal 15pt Arial;
+    color: #3498db;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+header {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+section {
+    
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 400px;
+    height: 100px;
+    background-color: #3498db;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    font-style: italic;
+}
+
+#btn {
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    margin-bottom: 30px;
+    transition: 0.3s;
+}
+
+#btn:hover{
+    background-color: #1d5377;
+}
+
+.texto {
+    font: normal 20pt Arial;
+}
+
+.intxt {
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    font-size: 15pt;
+    border-radius: 25px;
+    border: 2px solid lightblue;
+}
+
+input:focus {
+    background-color: #f0f8ff;
+    border-color: #039aff;
+    border-style: solid;
+    border-width: 2px; /* Se você quiser manter a mesma largura da borda padrão */
+    outline: none;
+}
