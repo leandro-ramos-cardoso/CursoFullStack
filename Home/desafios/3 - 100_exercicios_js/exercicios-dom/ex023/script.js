@@ -6,8 +6,8 @@ function fazerLogin(){
     var resultado = window.document.getElementById('resultado');
 
     if(nome == 'admin' && senha == '123'){
-        alert('Login feito com sucesso')
+        alert('Login feito com sucesso');
     } else {
-        alert('ERRO')
+        alert('ERRO');
     }
 }
