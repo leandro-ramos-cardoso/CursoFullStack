@@ -4,7 +4,7 @@ const Multiplicacao = (props) => {
 const multiplicacao = props.num1 * props.num2
   return (
     <div>
-        <h1>O resultado de {props.num1} x {props.num2} é igual a {multiplicacao}</h1>
+        <h3>O resultado de {props.num1} x {props.num2} é igual a {multiplicacao}</h3>
     </div>
   )
 }
