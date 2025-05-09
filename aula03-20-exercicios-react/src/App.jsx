@@ -26,6 +26,9 @@ import StatusConexao from './components/StatusConexao'
 import NomeCompleto from './components/NomeCompleto'
 import MensagemEmoji from './components/MensagemEmoji'
 import ListaProdutos from './components/ListaProdutos'
+import ListaDePerifericos from './components/ListaDePerifericos'
+import Example from './components/Example'
+import HookContador from './components/HookContador'
 
 const App = () => {
   return (
@@ -56,6 +59,9 @@ const App = () => {
       <NomeCompleto nome='Leandro' sobrenome='Ramos Cardoso' />
       <MensagemEmoji mensagem='Teste 1,2,3' emoji="😄" />
       <ListaProdutos nomeProduto={['Computador', 'Teclado']}/>
+      <ListaDePerifericos />
+      <Example />
+      <HookContador />
       
     </div>
   )
