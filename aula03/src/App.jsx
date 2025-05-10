@@ -7,6 +7,7 @@ import RenderizandoComFuncoes from './components/RenderizandoComFuncoes'
 import Mensagem from './components/Mensagem'
 import TrabalhandoComImagens from './components/TrabalhandoComImagens'
 import TrabalhandoComImagensCondicionais from './components/TrabalhandoComImagensCondicionais'
+import HookContador from './components/HookContador'
 
 const App = () => {
   return (
@@ -20,7 +21,7 @@ const App = () => {
       {/* <Mensagem/> */}
 
       {/* <TrabalhandoComImagens /> */}
-      <TrabalhandoComImagensCondicionais imagem={'Public'}/>
+      <HookContador/>
     </div>
   )
 }
